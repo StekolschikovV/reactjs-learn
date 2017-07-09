@@ -1,0 +1,23 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "latest",
+    "reactify": "^1.1.1"
+  },
+  "devDependencies": {
+    "browserify": "latest"
+  },
+  "browserify": {
+    "tramsform": [
+      "reactify"
+    ]
+  }
+}
